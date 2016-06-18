@@ -15,6 +15,10 @@
 		F34099B41D154C3500A3BAFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F34099B21D154C3500A3BAFA /* LaunchScreen.storyboard */; };
 		F34099BF1D154C3500A3BAFA /* CarpoolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34099BE1D154C3500A3BAFA /* CarpoolTests.swift */; };
 		F34099CA1D154C3500A3BAFA /* CarpoolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34099C91D154C3500A3BAFA /* CarpoolUITests.swift */; };
+		F34099DB1D1550F100A3BAFA /* LoginUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34099DA1D1550F100A3BAFA /* LoginUser.swift */; };
+		F34099DD1D15511F00A3BAFA /* LoginProviderDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34099DC1D15511F00A3BAFA /* LoginProviderDelegate.swift */; };
+		F34099DF1D15513400A3BAFA /* LoginProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34099DE1D15513400A3BAFA /* LoginProvider.swift */; };
+		F34099E11D15517800A3BAFA /* EmailHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34099E01D15517800A3BAFA /* EmailHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +56,10 @@
 		F34099C91D154C3500A3BAFA /* CarpoolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarpoolUITests.swift; sourceTree = "<group>"; };
 		F34099CB1D154C3500A3BAFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F34099D71D154EE300A3BAFA /* Carpool-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Carpool-Bridging-Header.h"; sourceTree = "<group>"; };
+		F34099DA1D1550F100A3BAFA /* LoginUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginUser.swift; sourceTree = "<group>"; };
+		F34099DC1D15511F00A3BAFA /* LoginProviderDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginProviderDelegate.swift; sourceTree = "<group>"; };
+		F34099DE1D15513400A3BAFA /* LoginProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginProvider.swift; sourceTree = "<group>"; };
+		F34099E01D15517800A3BAFA /* EmailHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +123,10 @@
 			isa = PBXGroup;
 			children = (
 				F34099A91D154C3500A3BAFA /* AppDelegate.swift */,
+				F34099DA1D1550F100A3BAFA /* LoginUser.swift */,
+				F34099DC1D15511F00A3BAFA /* LoginProviderDelegate.swift */,
+				F34099DE1D15513400A3BAFA /* LoginProvider.swift */,
+				F34099E01D15517800A3BAFA /* EmailHelper.swift */,
 				F34099AB1D154C3500A3BAFA /* ViewController.swift */,
 				F34099AD1D154C3500A3BAFA /* Main.storyboard */,
 				F34099B01D154C3500A3BAFA /* Assets.xcassets */,
@@ -333,6 +345,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F34099DB1D1550F100A3BAFA /* LoginUser.swift in Sources */,
+				F34099DF1D15513400A3BAFA /* LoginProvider.swift in Sources */,
+				F34099E11D15517800A3BAFA /* EmailHelper.swift in Sources */,
+				F34099DD1D15511F00A3BAFA /* LoginProviderDelegate.swift in Sources */,
 				F34099AC1D154C3500A3BAFA /* ViewController.swift in Sources */,
 				F34099AA1D154C3500A3BAFA /* AppDelegate.swift in Sources */,
 			);

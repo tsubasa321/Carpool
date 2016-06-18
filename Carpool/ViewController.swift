@@ -8,12 +8,37 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class ViewController: UIViewController, LoginProviderDelegate {
+    
+    var loginProvider = LoginProvider.None
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        let user = LoginUser(email: "alvin@example.com", password: "pass")
+        loginProvider = .Email(user)
+        loginProvider.login(self)
+        
     }
+    
+    func loginProvider(loginProvider: LoginProvider, didSuccess user: KiiUser){
+        print("Success")
+    }
+    
+    func loginProvider(loginProvider: LoginProvider, didError error: NSError?){
+        print("\(error!.code)")
+    }
+    
+    func textFieldShouldReturn(textField: UITextField) -> Bool {
+        //passwordTextField.resignFirstResponder()
+        return true
+    }
+    
+    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
+        self.view.endEditing(true)
+    }
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
