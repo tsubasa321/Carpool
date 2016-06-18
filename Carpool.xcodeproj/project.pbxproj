@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F34099AA1D154C3500A3BAFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34099A91D154C3500A3BAFA /* AppDelegate.swift */; };
+		F34099AC1D154C3500A3BAFA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34099AB1D154C3500A3BAFA /* ViewController.swift */; };
+		F34099AF1D154C3500A3BAFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F34099AD1D154C3500A3BAFA /* Main.storyboard */; };
+		F34099B11D154C3500A3BAFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F34099B01D154C3500A3BAFA /* Assets.xcassets */; };
+		F34099B41D154C3500A3BAFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F34099B21D154C3500A3BAFA /* LaunchScreen.storyboard */; };
+		F34099BF1D154C3500A3BAFA /* CarpoolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34099BE1D154C3500A3BAFA /* CarpoolTests.swift */; };
+		F34099CA1D154C3500A3BAFA /* CarpoolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34099C91D154C3500A3BAFA /* CarpoolUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F34099BB1D154C3500A3BAFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F340999E1D154C3500A3BAFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F34099A51D154C3500A3BAFA;
+			remoteInfo = Carpool;
+		};
+		F34099C61D154C3500A3BAFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F340999E1D154C3500A3BAFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F34099A51D154C3500A3BAFA;
+			remoteInfo = Carpool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F34099A61D154C3500A3BAFA /* Carpool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Carpool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F34099A91D154C3500A3BAFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F34099AB1D154C3500A3BAFA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F34099AE1D154C3500A3BAFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F34099B01D154C3500A3BAFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F34099B31D154C3500A3BAFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F34099B51D154C3500A3BAFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F34099BA1D154C3500A3BAFA /* CarpoolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarpoolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F34099BE1D154C3500A3BAFA /* CarpoolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarpoolTests.swift; sourceTree = "<group>"; };
+		F34099C01D154C3500A3BAFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F34099C51D154C3500A3BAFA /* CarpoolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarpoolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F34099C91D154C3500A3BAFA /* CarpoolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarpoolUITests.swift; sourceTree = "<group>"; };
+		F34099CB1D154C3500A3BAFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F34099A31D154C3500A3BAFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F34099B71D154C3500A3BAFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F34099C21D154C3500A3BAFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F340999D1D154C3500A3BAFA = {
+			isa = PBXGroup;
+			children = (
+				F34099A81D154C3500A3BAFA /* Carpool */,
+				F34099BD1D154C3500A3BAFA /* CarpoolTests */,
+				F34099C81D154C3500A3BAFA /* CarpoolUITests */,
+				F34099A71D154C3500A3BAFA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F34099A71D154C3500A3BAFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F34099A61D154C3500A3BAFA /* Carpool.app */,
+				F34099BA1D154C3500A3BAFA /* CarpoolTests.xctest */,
+				F34099C51D154C3500A3BAFA /* CarpoolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F34099A81D154C3500A3BAFA /* Carpool */ = {
+			isa = PBXGroup;
+			children = (
+				F34099A91D154C3500A3BAFA /* AppDelegate.swift */,
+				F34099AB1D154C3500A3BAFA /* ViewController.swift */,
+				F34099AD1D154C3500A3BAFA /* Main.storyboard */,
+				F34099B01D154C3500A3BAFA /* Assets.xcassets */,
+				F34099B21D154C3500A3BAFA /* LaunchScreen.storyboard */,
+				F34099B51D154C3500A3BAFA /* Info.plist */,
+			);
+			path = Carpool;
+			sourceTree = "<group>";
+		};
+		F34099BD1D154C3500A3BAFA /* CarpoolTests */ = {
+			isa = PBXGroup;
+			children = (
+				F34099BE1D154C3500A3BAFA /* CarpoolTests.swift */,
+				F34099C01D154C3500A3BAFA /* Info.plist */,
+			);
+			path = CarpoolTests;
+			sourceTree = "<group>";
+		};
+		F34099C81D154C3500A3BAFA /* CarpoolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F34099C91D154C3500A3BAFA /* CarpoolUITests.swift */,
+				F34099CB1D154C3500A3BAFA /* Info.plist */,
+			);
+			path = CarpoolUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F34099A51D154C3500A3BAFA /* Carpool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F34099CE1D154C3500A3BAFA /* Build configuration list for PBXNativeTarget "Carpool" */;
+			buildPhases = (
+				F34099A21D154C3500A3BAFA /* Sources */,
+				F34099A31D154C3500A3BAFA /* Frameworks */,
+				F34099A41D154C3500A3BAFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Carpool;
+			productName = Carpool;
+			productReference = F34099A61D154C3500A3BAFA /* Carpool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F34099B91D154C3500A3BAFA /* CarpoolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F34099D11D154C3500A3BAFA /* Build configuration list for PBXNativeTarget "CarpoolTests" */;
+			buildPhases = (
+				F34099B61D154C3500A3BAFA /* Sources */,
+				F34099B71D154C3500A3BAFA /* Frameworks */,
+				F34099B81D154C3500A3BAFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F34099BC1D154C3500A3BAFA /* PBXTargetDependency */,
+			);
+			name = CarpoolTests;
+			productName = CarpoolTests;
+			productReference = F34099BA1D154C3500A3BAFA /* CarpoolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F34099C41D154C3500A3BAFA /* CarpoolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F34099D41D154C3500A3BAFA /* Build configuration list for PBXNativeTarget "CarpoolUITests" */;
+			buildPhases = (
+				F34099C11D154C3500A3BAFA /* Sources */,
+				F34099C21D154C3500A3BAFA /* Frameworks */,
+				F34099C31D154C3500A3BAFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F34099C71D154C3500A3BAFA /* PBXTargetDependency */,
+			);
+			name = CarpoolUITests;
+			productName = CarpoolUITests;
+			productReference = F34099C51D154C3500A3BAFA /* CarpoolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F340999E1D154C3500A3BAFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Qi (Alvin) Jing";
+				TargetAttributes = {
+					F34099A51D154C3500A3BAFA = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					F34099B91D154C3500A3BAFA = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = F34099A51D154C3500A3BAFA;
+					};
+					F34099C41D154C3500A3BAFA = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = F34099A51D154C3500A3BAFA;
+					};
+				};
+			};
+			buildConfigurationList = F34099A11D154C3500A3BAFA /* Build configuration list for PBXProject "Carpool" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F340999D1D154C3500A3BAFA;
+			productRefGroup = F34099A71D154C3500A3BAFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F34099A51D154C3500A3BAFA /* Carpool */,
+				F34099B91D154C3500A3BAFA /* CarpoolTests */,
+				F34099C41D154C3500A3BAFA /* CarpoolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F34099A41D154C3500A3BAFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F34099B41D154C3500A3BAFA /* LaunchScreen.storyboard in Resources */,
+				F34099B11D154C3500A3BAFA /* Assets.xcassets in Resources */,
+				F34099AF1D154C3500A3BAFA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F34099B81D154C3500A3BAFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F34099C31D154C3500A3BAFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F34099A21D154C3500A3BAFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F34099AC1D154C3500A3BAFA /* ViewController.swift in Sources */,
+				F34099AA1D154C3500A3BAFA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F34099B61D154C3500A3BAFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F34099BF1D154C3500A3BAFA /* CarpoolTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F34099C11D154C3500A3BAFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F34099CA1D154C3500A3BAFA /* CarpoolUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F34099BC1D154C3500A3BAFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F34099A51D154C3500A3BAFA /* Carpool */;
+			targetProxy = F34099BB1D154C3500A3BAFA /* PBXContainerItemProxy */;
+		};
+		F34099C71D154C3500A3BAFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F34099A51D154C3500A3BAFA /* Carpool */;
+			targetProxy = F34099C61D154C3500A3BAFA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F34099AD1D154C3500A3BAFA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F34099AE1D154C3500A3BAFA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F34099B21D154C3500A3BAFA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F34099B31D154C3500A3BAFA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F34099CC1D154C3500A3BAFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F34099CD1D154C3500A3BAFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F34099CF1D154C3500A3BAFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Carpool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Personal.Alvin.Carpool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F34099D01D154C3500A3BAFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Carpool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Personal.Alvin.Carpool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F34099D21D154C3500A3BAFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CarpoolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Personal.Alvin.CarpoolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Carpool.app/Carpool";
+			};
+			name = Debug;
+		};
+		F34099D31D154C3500A3BAFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CarpoolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Personal.Alvin.CarpoolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Carpool.app/Carpool";
+			};
+			name = Release;
+		};
+		F34099D51D154C3500A3BAFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CarpoolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Personal.Alvin.CarpoolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Carpool;
+			};
+			name = Debug;
+		};
+		F34099D61D154C3500A3BAFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CarpoolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Personal.Alvin.CarpoolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Carpool;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F34099A11D154C3500A3BAFA /* Build configuration list for PBXProject "Carpool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F34099CC1D154C3500A3BAFA /* Debug */,
+				F34099CD1D154C3500A3BAFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F34099CE1D154C3500A3BAFA /* Build configuration list for PBXNativeTarget "Carpool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F34099CF1D154C3500A3BAFA /* Debug */,
+				F34099D01D154C3500A3BAFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F34099D11D154C3500A3BAFA /* Build configuration list for PBXNativeTarget "CarpoolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F34099D21D154C3500A3BAFA /* Debug */,
+				F34099D31D154C3500A3BAFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F34099D41D154C3500A3BAFA /* Build configuration list for PBXNativeTarget "CarpoolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F34099D51D154C3500A3BAFA /* Debug */,
+				F34099D61D154C3500A3BAFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F340999E1D154C3500A3BAFA /* Project object */;
+}
