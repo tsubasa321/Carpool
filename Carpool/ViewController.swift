@@ -8,26 +8,42 @@
 
 import UIKit
 
-class ViewController: UIViewController, LoginProviderDelegate {
+class ViewController: UIViewController, LoginProviderDelegate, SignupDelegate {
     
     var loginProvider = LoginProvider.None
+    
+    var signupControl = Signup()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        let user = LoginUser(email: "alvin@example.com", password: "pass")
-        loginProvider = .Email(user)
-        loginProvider.login(self)
+//        let user = LoginUser(email: "alvin@example.com", password: "pass")
+//        loginProvider = .Email(user)
+//        loginProvider.login(self)
+        
+        
+        //signupControl.signup("alvin@example.com", password: "pass", delegate: self)
         
     }
     
+    func signup(signup: Signup, didSuccess user: KiiUser){
+    
+        print("Sign up success")
+        
+    }
+    func signup(signup: Signup, didError user: NSError?){
+    
+        print("Sign up failed")
+    
+    }
+    
     func loginProvider(loginProvider: LoginProvider, didSuccess user: KiiUser){
-        print("Success")
+        print("Successfully logged in")
     }
     
     func loginProvider(loginProvider: LoginProvider, didError error: NSError?){
-        print("\(error!.code)")
+        print("Failed to login, check your email and password")
     }
     
     func textFieldShouldReturn(textField: UITextField) -> Bool {

@@ -19,6 +19,9 @@
 		F34099DD1D15511F00A3BAFA /* LoginProviderDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34099DC1D15511F00A3BAFA /* LoginProviderDelegate.swift */; };
 		F34099DF1D15513400A3BAFA /* LoginProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34099DE1D15513400A3BAFA /* LoginProvider.swift */; };
 		F34099E11D15517800A3BAFA /* EmailHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34099E01D15517800A3BAFA /* EmailHelper.swift */; };
+		F34099E31D15574100A3BAFA /* ObjectManagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34099E21D15574100A3BAFA /* ObjectManagement.swift */; };
+		F34099E51D155C2000A3BAFA /* Signup.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34099E41D155C2000A3BAFA /* Signup.swift */; };
+		F34099E71D155C6900A3BAFA /* SignupDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34099E61D155C6900A3BAFA /* SignupDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +63,9 @@
 		F34099DC1D15511F00A3BAFA /* LoginProviderDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginProviderDelegate.swift; sourceTree = "<group>"; };
 		F34099DE1D15513400A3BAFA /* LoginProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginProvider.swift; sourceTree = "<group>"; };
 		F34099E01D15517800A3BAFA /* EmailHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailHelper.swift; sourceTree = "<group>"; };
+		F34099E21D15574100A3BAFA /* ObjectManagement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObjectManagement.swift; sourceTree = "<group>"; };
+		F34099E41D155C2000A3BAFA /* Signup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Signup.swift; sourceTree = "<group>"; };
+		F34099E61D155C6900A3BAFA /* SignupDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,7 +133,10 @@
 				F34099DC1D15511F00A3BAFA /* LoginProviderDelegate.swift */,
 				F34099DE1D15513400A3BAFA /* LoginProvider.swift */,
 				F34099E01D15517800A3BAFA /* EmailHelper.swift */,
+				F34099E41D155C2000A3BAFA /* Signup.swift */,
+				F34099E61D155C6900A3BAFA /* SignupDelegate.swift */,
 				F34099AB1D154C3500A3BAFA /* ViewController.swift */,
+				F34099E21D15574100A3BAFA /* ObjectManagement.swift */,
 				F34099AD1D154C3500A3BAFA /* Main.storyboard */,
 				F34099B01D154C3500A3BAFA /* Assets.xcassets */,
 				F34099B21D154C3500A3BAFA /* LaunchScreen.storyboard */,
@@ -348,9 +357,12 @@
 				F34099DB1D1550F100A3BAFA /* LoginUser.swift in Sources */,
 				F34099DF1D15513400A3BAFA /* LoginProvider.swift in Sources */,
 				F34099E11D15517800A3BAFA /* EmailHelper.swift in Sources */,
+				F34099E31D15574100A3BAFA /* ObjectManagement.swift in Sources */,
 				F34099DD1D15511F00A3BAFA /* LoginProviderDelegate.swift in Sources */,
+				F34099E51D155C2000A3BAFA /* Signup.swift in Sources */,
 				F34099AC1D154C3500A3BAFA /* ViewController.swift in Sources */,
 				F34099AA1D154C3500A3BAFA /* AppDelegate.swift in Sources */,
+				F34099E71D155C6900A3BAFA /* SignupDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

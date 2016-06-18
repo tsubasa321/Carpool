@@ -28,4 +28,19 @@ class EmailHelper {
    
     }
     
+    func signupWithEmail(email: String, password: String, completionHandler: (user: KiiUser?, error: NSError?) -> Void){
+        
+        let user = KiiUser(emailAddress: email, andPassword: password)
+        user.performRegistrationWithBlock { (user : KiiUser?, error : NSError?) -> Void in
+            if (error != nil) {
+                // Error handling
+                print("Email already exists")
+            }
+            
+            completionHandler(user: user, error: error)
+            
+        }    
+    
+    }
+    
 }
