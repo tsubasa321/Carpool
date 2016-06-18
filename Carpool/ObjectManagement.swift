@@ -10,23 +10,51 @@ import Foundation
 
 class ObjectManagement {
 
-    static func createObject(){
-    
+    static func createRequestObject(user: KiiUser, coordinate: KiiGeoPoint, datetime: NSDate, completionHandler: (object: KiiObject?, error: NSError?) -> Void){
+
         let bucket = Kii.bucketWithName("Requests")
         
         // Create an object with key/value pairs
         let object = bucket.createObject()
-        object.setObject(NSNumber(int: 987), forKey: "requestorID")
-        object.setObject("easy", forKey: "mode")
-        object.setObject(NSNumber(bool: false), forKey: "premiumUser")
+        object.setObject(user.userID, forKey: "requestorID")
+        object.setObject(coordinate.latitude, forKey: "latitude")
+        object.setObject(coordinate.longitude, forKey: "longtitude")
+        
+        object.setObject(NSNumber(double: datetime.timeIntervalSince1970), forKey: "datetime")
         
         // Save the object
         object.saveWithBlock { (object : KiiObject?, error : NSError?) -> Void in
             if (error != nil) {
                 // Error handling
-                return
             }
+            
+            completionHandler(object: object, error: error)
         }
+        
+    }
+    
+    
+    static func createResponseObject(requestID: String, requestUser: KiiUser, responseUser: KiiUser, completionHandler: (object: KiiObject?, error: NSError?) -> Void){
+        
+        let bucket = Kii.bucketWithName("Responses")
+
+        // Create an object with key/value pairs
+        let object = bucket.createObject()
+        object.setObject(requestID, forKey: "requestID")
+        object.setObject(responseUser.userID, forKey: "responseUserID")
+        object.setObject(requestUser.userID, forKey: "requestUserID")
+        object.setObject(RequestStatus.Active.rawValue, forKey: "status")
+        
+        // Save the object
+        object.saveWithBlock { (object : KiiObject?, error : NSError?) -> Void in
+            if (error != nil) {
+                // Error handling
+            }
+            
+            completionHandler(object: object, error: error)
+        }
+        
+    
     }
     
 }

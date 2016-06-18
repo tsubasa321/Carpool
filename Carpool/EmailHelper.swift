@@ -10,21 +10,18 @@ import Foundation
 
 class EmailHelper {
     
+    /* Login Blocking */
     func loginWithEmail(email: String, password: String, completionHandler: (user: KiiUser?, error: NSError?) -> Void) {
-
-        KiiUser.authenticate(email, withPassword: password) { (user : KiiUser?, error : NSError?) -> Void in
-            if (error != nil) {
-                
-                // Error handling
-                if(error?.code == 302){
-                    print("Invalid email and password")
-                }
-
-            }
-            
-            completionHandler(user: user, error: error)
-            
+        
+        do{
+            try KiiUser.authenticateSynchronous(email, withPassword: password)
+        }catch let error as NSError {
+            // Error handling
+            completionHandler(user: nil, error: error)
+            return
         }
+        
+        completionHandler(user: KiiUser.currentUser(), error: nil)
    
     }
     
@@ -34,7 +31,6 @@ class EmailHelper {
         user.performRegistrationWithBlock { (user : KiiUser?, error : NSError?) -> Void in
             if (error != nil) {
                 // Error handling
-                print("Email already exists")
             }
             
             completionHandler(user: user, error: error)
